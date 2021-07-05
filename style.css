@@ -1,0 +1,95 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    text-align: justify;
+}
+.common{
+    display: flex;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+.partone{
+    width: 50%;
+    padding: 6%;
+    
+}
+#welcome{
+    color: red;
+}
+.color{
+    color: orange;
+}
+.partone img{
+    height: 400px;
+    width: 400px;
+    border-radius: 10%;
+    border: solid 2px yellow;
+
+}
+.contact{
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+.top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.partwo{
+    width: 50%;
+    padding: 5%;
+}
+.partwo img{
+    height: 400px;
+    width: 400px;
+    border-radius: 10%;
+    border: solid 2px black;
+}
+.middle{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.one{
+    height: 500px;
+    width: 500px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-left: solid 10px;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 2%;
+    background-color: white;
+    box-shadow: 10px 10px 30px gray;
+}
+.two{
+    height: 500px;
+    width: 500px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-left: solid 10px;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 2%;
+    background-color: white;
+    box-shadow: 10px 10px 30px gray;
+}
+.last{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
+}
